@@ -8,6 +8,9 @@
     <h1>Welcome to Our Website</h1>
     <!-- Salesforce Bot Snippet -->
     <script type='text/javascript'>
+	window.onload = function() {
+		initEmbeddedMessaging();
+	};
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
